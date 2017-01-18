@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F7FEB371E2F76CD00884B6C /* BibleBooksChapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FEB361E2F76CD00884B6C /* BibleBooksChapters.swift */; };
 		0F9A58471E2AC80E006C7D9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A58461E2AC80E006C7D9B /* AppDelegate.swift */; };
 		0F9A58491E2AC80E006C7D9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A58481E2AC80E006C7D9B /* ViewController.swift */; };
 		0F9A584B1E2AC80E006C7D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A584A1E2AC80E006C7D9B /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F7FEB361E2F76CD00884B6C /* BibleBooksChapters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleBooksChapters.swift; sourceTree = "<group>"; };
 		0F9A58431E2AC80E006C7D9B /* Firebase-macOS-play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase-macOS-play.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F9A58461E2AC80E006C7D9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F9A58481E2AC80E006C7D9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				0F9A58461E2AC80E006C7D9B /* AppDelegate.swift */,
 				0F9A585B1E2AE22A006C7D9B /* InfoController.swift */,
 				0F9A58551E2AC8BC006C7D9B /* NetworkController.swift */,
+				0F7FEB361E2F76CD00884B6C /* BibleBooksChapters.swift */,
 				0F9A58481E2AC80E006C7D9B /* ViewController.swift */,
 				0F9A584A1E2AC80E006C7D9B /* Assets.xcassets */,
 				0F9A584C1E2AC80E006C7D9B /* Main.storyboard */,
@@ -145,6 +148,7 @@
 				0F9A58491E2AC80E006C7D9B /* ViewController.swift in Sources */,
 				0F9A58581E2ACAD0006C7D9B /* Info.swift in Sources */,
 				0F9A58471E2AC80E006C7D9B /* AppDelegate.swift in Sources */,
+				0F7FEB371E2F76CD00884B6C /* BibleBooksChapters.swift in Sources */,
 				0F9A58561E2AC8BC006C7D9B /* NetworkController.swift in Sources */,
 				0F9A585C1E2AE22A006C7D9B /* InfoController.swift in Sources */,
 			);
@@ -301,6 +305,7 @@
 				0F9A58541E2AC80E006C7D9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
