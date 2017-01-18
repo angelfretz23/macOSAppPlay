@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0F7FEB371E2F76CD00884B6C /* BibleBooksChapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FEB361E2F76CD00884B6C /* BibleBooksChapters.swift */; };
+		0F7FEB391E2F905400884B6C /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FEB381E2F905400884B6C /* Song.swift */; };
+		0F7FEB3B1E2F9CA400884B6C /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FEB3A1E2F9CA400884B6C /* PostController.swift */; };
 		0F9A58471E2AC80E006C7D9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A58461E2AC80E006C7D9B /* AppDelegate.swift */; };
 		0F9A58491E2AC80E006C7D9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A58481E2AC80E006C7D9B /* ViewController.swift */; };
 		0F9A584B1E2AC80E006C7D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A584A1E2AC80E006C7D9B /* Assets.xcassets */; };
 		0F9A584E1E2AC80E006C7D9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F9A584C1E2AC80E006C7D9B /* Main.storyboard */; };
 		0F9A58561E2AC8BC006C7D9B /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A58551E2AC8BC006C7D9B /* NetworkController.swift */; };
-		0F9A58581E2ACAD0006C7D9B /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A58571E2ACAD0006C7D9B /* Info.swift */; };
-		0F9A585C1E2AE22A006C7D9B /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A585B1E2AE22A006C7D9B /* InfoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F7FEB361E2F76CD00884B6C /* BibleBooksChapters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleBooksChapters.swift; sourceTree = "<group>"; };
+		0F7FEB381E2F905400884B6C /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		0F7FEB3A1E2F9CA400884B6C /* PostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostController.swift; path = ../PostController.swift; sourceTree = "<group>"; };
 		0F9A58431E2AC80E006C7D9B /* Firebase-macOS-play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase-macOS-play.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F9A58461E2AC80E006C7D9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F9A58481E2AC80E006C7D9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,8 +28,6 @@
 		0F9A584D1E2AC80E006C7D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F9A584F1E2AC80E006C7D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F9A58551E2AC8BC006C7D9B /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
-		0F9A58571E2ACAD0006C7D9B /* Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
-		0F9A585B1E2AE22A006C7D9B /* InfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +60,12 @@
 		0F9A58451E2AC80E006C7D9B /* Firebase-macOS-play */ = {
 			isa = PBXGroup;
 			children = (
-				0F9A58571E2ACAD0006C7D9B /* Info.swift */,
 				0F9A58461E2AC80E006C7D9B /* AppDelegate.swift */,
-				0F9A585B1E2AE22A006C7D9B /* InfoController.swift */,
 				0F9A58551E2AC8BC006C7D9B /* NetworkController.swift */,
 				0F7FEB361E2F76CD00884B6C /* BibleBooksChapters.swift */,
 				0F9A58481E2AC80E006C7D9B /* ViewController.swift */,
+				0F7FEB381E2F905400884B6C /* Song.swift */,
+				0F7FEB3A1E2F9CA400884B6C /* PostController.swift */,
 				0F9A584A1E2AC80E006C7D9B /* Assets.xcassets */,
 				0F9A584C1E2AC80E006C7D9B /* Main.storyboard */,
 				0F9A584F1E2AC80E006C7D9B /* Info.plist */,
@@ -145,12 +145,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F7FEB3B1E2F9CA400884B6C /* PostController.swift in Sources */,
+				0F7FEB391E2F905400884B6C /* Song.swift in Sources */,
 				0F9A58491E2AC80E006C7D9B /* ViewController.swift in Sources */,
-				0F9A58581E2ACAD0006C7D9B /* Info.swift in Sources */,
 				0F9A58471E2AC80E006C7D9B /* AppDelegate.swift in Sources */,
 				0F7FEB371E2F76CD00884B6C /* BibleBooksChapters.swift in Sources */,
 				0F9A58561E2AC8BC006C7D9B /* NetworkController.swift in Sources */,
-				0F9A585C1E2AE22A006C7D9B /* InfoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
