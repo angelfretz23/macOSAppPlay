@@ -47,7 +47,7 @@ class ViewController: NSViewController {
         let book = bookComboBox.objectValueOfSelectedItem as! String
         let mediaType = mediaTypeComboType.objectValueOfSelectedItem as! String
         let chapter = chapterComboBox.objectValueOfSelectedItem as! String
-        let verse = verseTextField.stringValue
+        let verse = "Verse \(verseTextField.stringValue)"
         
         if outerHashTagsTextField.stringValue != "" {
             postController?.post(dictionary: ["hashtags": outerHashTagsTextField.stringValue],  mediaType: mediaType, book: book, chapter: chapter, verse: verse, songName: nil)
